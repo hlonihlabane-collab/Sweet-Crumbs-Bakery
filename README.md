@@ -56,11 +56,11 @@ The bakery website includes different types of baked goods, including:
 
 ## Technologies Used
 
-### HTML5
+### HTML
 
 HTML5 is used to create the structure of the webpages.
 
-### CSS3
+### CSS
 
 CSS3 is used for the website's:
 
