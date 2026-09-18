@@ -14,13 +14,13 @@ The main aim of the project is to demonstrate the development of a multi-page we
 
 The website contains the following pages:
 
-* `index.html` – Home page
-* `About.html` – About Us page
-* `Menu.html` – Bakery menu
-* `Specials.html` – Special offers
-* `Gallery.html` – Bakery image gallery
-* `Enquiry.html` – Enquiry page
-* `Contact.html` – Contact page
+* index.html – Home page
+* About.html – About Us page
+* Menu.html – Bakery menu
+* Specials.html – Special offers
+* Gallery.html– Bakery image gallery
+* Enquiry.html – Enquiry page
+* Contact.html – Contact page
 
 ## Features
 
