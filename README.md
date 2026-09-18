@@ -58,7 +58,7 @@ The bakery website includes different types of baked goods, including:
 
 ### HTML
 
-HTML5 is used to create the structure of the webpages.
+HTML is used to create the structure of the webpages.
 
 ### CSS
 
@@ -153,12 +153,6 @@ CSS media queries and Bootstrap responsive features are used to adjust the layou
 ## Images
 
 Bakery images are stored in the images folder and are linked to the webpages using relative paths.
-
-Example:
-
-
-<img src="images/cake.jpg" alt="Chocolate Cake">
-
 
 Alternative text is included on images where appropriate.
 
