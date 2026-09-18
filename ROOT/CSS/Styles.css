@@ -1,0 +1,1294 @@
+/* =========================================================
+   SWEET CRUMBS BAKERY
+   Custom Stylesheet
+   Bootswatch LUX + Bootstrap
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   GENERAL STYLING
+   --------------------------------------------------------- */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffaf2;
+    color: #3f2a1d;
+    margin: 0;
+    line-height: 1.7;
+}
+
+a {
+    transition: all 0.3s ease;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* ---------------------------------------------------------
+   NAVIGATION
+   --------------------------------------------------------- */
+
+.bakery-navbar {
+    background-color: #6b3f1d !important;
+    padding: 18px 0;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+.bakery-logo {
+    color: #f8d28b !important;
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.bakery-nav {
+    gap: 8px;
+}
+
+.bakery-nav .nav-link {
+    color: #fffaf2 !important;
+    font-weight: 600;
+    padding: 10px 14px !important;
+    border-radius: 5px;
+}
+
+.bakery-nav .nav-link:hover,
+.bakery-nav .nav-link.active {
+    color: #f8d28b !important;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+
+/* ---------------------------------------------------------
+   HERO
+   --------------------------------------------------------- */
+
+.hero-section {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(72, 40, 18, 0.96),
+            rgba(107, 63, 29, 0.88)
+        );
+    color: white;
+    padding: 90px 0;
+}
+
+.hero-content {
+    padding: 30px 20px 30px 0;
+}
+
+.hero-content h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(42px, 6vw, 72px);
+    line-height: 1.08;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.hero-content h1 span {
+    color: #f5c978;
+}
+
+.hero-content p {
+    font-size: 19px;
+    max-width: 560px;
+    color: #f9eee0;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.hero-image-wrapper {
+    padding: 20px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ---------------------------------------------------------
+   BUTTONS
+   --------------------------------------------------------- */
+
+.bakery-button {
+    background-color: #f1bd67 !important;
+    border-color: #f1bd67 !important;
+    color: #4b2d18 !important;
+    font-weight: bold;
+    padding: 13px 26px;
+    border-radius: 4px;
+}
+
+.bakery-button:hover {
+    background-color: #e3a84d !important;
+    border-color: #e3a84d !important;
+}
+
+.bakery-outline-button {
+    border: 2px solid #fffaf2 !important;
+    color: white !important;
+    padding: 11px 25px;
+}
+
+.bakery-outline-button:hover {
+    background-color: white !important;
+    color: #6b3f1d !important;
+}
+
+.bakery-dark-button {
+    background-color: #6b3f1d !important;
+    border-color: #6b3f1d !important;
+    color: white !important;
+    padding: 12px 24px;
+}
+
+.bakery-dark-button:hover {
+    background-color: #4b2a14 !important;
+}
+
+.bakery-cta-button {
+    color: #6b3f1d !important;
+    font-weight: bold;
+    padding: 13px 28px;
+}
+
+
+/* ---------------------------------------------------------
+   BADGES
+   --------------------------------------------------------- */
+
+.bakery-badge {
+    background-color: #f1bd67 !important;
+    color: #4b2d18 !important;
+    padding: 9px 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+/* ---------------------------------------------------------
+   SECTIONS
+   --------------------------------------------------------- */
+
+.section-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-label {
+    color: #b86b25;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.section-title {
+    font-family: Georgia, serif;
+    color: #5b341b;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    color: #725c4b;
+    font-size: 17px;
+}
+
+
+/* ---------------------------------------------------------
+   PAGE HEADER
+   --------------------------------------------------------- */
+
+.page-header {
+    background:
+        linear-gradient(
+            rgba(107, 63, 29, 0.92),
+            rgba(107, 63, 29, 0.92)
+        );
+    color: white;
+    padding: 75px 0;
+}
+
+.page-header h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(42px, 6vw, 60px);
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.page-header p {
+    color: #f9eee0;
+    font-size: 18px;
+}
+
+
+/* ---------------------------------------------------------
+   HOME MENU
+   --------------------------------------------------------- */
+
+.menu-preview {
+    background-color: #f6ead8;
+}
+
+.bakery-card {
+    border: none !important;
+    border-radius: 10px !important;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(73, 45, 25, 0.10);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bakery-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 15px 35px rgba(73, 45, 25, 0.17);
+}
+
+.bakery-card img {
+    height: 230px;
+    object-fit: cover;
+}
+
+.bakery-card .card-body {
+    padding: 25px;
+}
+
+.bakery-card .card-title {
+    color: #633817;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+
+/* ---------------------------------------------------------
+   MAIN IMAGES
+   --------------------------------------------------------- */
+
+.bakery-main-image {
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+    box-shadow: 0 15px 35px rgba(73, 45, 25, 0.12);
+}
+
+
+/* ---------------------------------------------------------
+   SPECIAL BANNER
+   --------------------------------------------------------- */
+
+.special-banner {
+    background-color: #6b3f1d;
+    color: white;
+    padding: 45px;
+    border-radius: 10px;
+}
+
+.special-banner h2 {
+    font-family: Georgia, serif;
+    color: #f5c978;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.special-banner p {
+    margin-bottom: 0;
+}
+
+
+/* ---------------------------------------------------------
+   CTA
+   --------------------------------------------------------- */
+
+.cta-section {
+    background-color: #b86b25;
+    color: white;
+    padding: 75px 20px;
+}
+
+.cta-section h2 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cta-section p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+/* ---------------------------------------------------------
+   ABOUT PAGE
+   --------------------------------------------------------- */
+
+.about-highlight {
+    background-color: #f6ead8;
+}
+
+.about-highlight h3 {
+    font-family: Georgia, serif;
+    color: #633817;
+    font-weight: bold;
+}
+
+.about-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.bakery-feature-card {
+    border: none !important;
+    background-color: white;
+    box-shadow: 0 8px 25px rgba(73, 45, 25, 0.08);
+    border-radius: 10px !important;
+}
+
+.bakery-feature-card h4 {
+    color: #6b3f1d;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+
+/* ---------------------------------------------------------
+   PRODUCTS / MENU
+   --------------------------------------------------------- */
+
+.menu-section {
+    background-color: #f6ead8;
+}
+
+.bakery-menu-card {
+    border: none !important;
+    overflow: hidden;
+    border-radius: 10px !important;
+    box-shadow: 0 8px 25px rgba(73, 45, 25, 0.10);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bakery-menu-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(73, 45, 25, 0.17);
+}
+
+.bakery-menu-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.bakery-menu-card .card-body {
+    padding: 25px;
+}
+
+.bakery-menu-card .card-title {
+    color: #5b341b;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.price {
+    color: #b86b25;
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.bakery-menu-card small {
+    color: #806b59;
+}
+
+
+/* ---------------------------------------------------------
+   SPECIALS
+   --------------------------------------------------------- */
+
+.special-card {
+    border: none !important;
+    border-radius: 10px !important;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(73, 45, 25, 0.12);
+}
+
+.special-card img {
+    height: 270px;
+    object-fit: cover;
+}
+
+.special-card .card-body {
+    padding: 30px;
+}
+
+.special-card h3 {
+    color: #5b341b;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.special-details {
+    color: #806b59;
+    font-size: 14px;
+}
+
+.special-price {
+    color: #b86b25;
+    font-family: Georgia, serif;
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+
+/* ---------------------------------------------------------
+   GALLERY
+   --------------------------------------------------------- */
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(73, 45, 25, 0.12);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.06);
+}
+
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(63, 38, 20, 0.86);
+    color: white;
+    padding: 15px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* ---------------------------------------------------------
+   ENQUIRY FORM
+   --------------------------------------------------------- */
+
+.enquiry-card {
+    border: none !important;
+    border-radius: 10px !important;
+    box-shadow: 0 12px 35px rgba(73, 45, 25, 0.12);
+}
+
+.enquiry-card h2 {
+    color: #5b341b;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.form-label {
+    color: #5b341b;
+    font-weight: bold;
+}
+
+.form-control,
+.form-select {
+    border: 1px solid #d9c5ad;
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #b86b25;
+    box-shadow: 0 0 0 0.2rem rgba(184, 107, 37, 0.15);
+}
+
+
+/* ---------------------------------------------------------
+   CONTACT
+   --------------------------------------------------------- */
+
+.contact-information {
+    margin-top: 30px;
+}
+
+.contact-item {
+    margin-bottom: 25px;
+    padding-left: 18px;
+    border-left: 4px solid #f1bd67;
+}
+
+.contact-item h5 {
+    color: #6b3f1d;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-item p {
+    margin-bottom: 0;
+}
+
+.map-container {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(73, 45, 25, 0.12);
+}
+
+.map-container iframe {
+    display: block;
+}
+
+
+/* ---------------------------------------------------------
+   FOOTER
+   --------------------------------------------------------- */
+
+.bakery-footer {
+    background-color: #3f2615;
+    color: #f8eee2;
+    padding: 55px 0 20px;
+}
+
+.bakery-footer h4,
+.bakery-footer h5 {
+    color: #f5c978;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.bakery-footer a {
+    display: block;
+    color: #f8eee2;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+
+.bakery-footer a:hover {
+    color: #f5c978;
+}
+
+.bakery-footer hr {
+    border-color: rgba(255, 255, 255, 0.2);
+    margin-top: 30px;
+}
+
+.footer-bottom {
+    color: #d9c8b6;
+    margin-bottom: 0;
+}
+
+
+/* ---------------------------------------------------------
+   RESPONSIVE DESIGN
+   --------------------------------------------------------- */
+
+@media (max-width: 991px) {
+
+    .bakery-nav {
+        margin-top: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .hero-image {
+        height: 400px;
+    }
+
+    .hero-content {
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .hero-content p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .section-padding {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .section-title {
+        font-size: 34px;
+    }
+
+    .hero-content h1 {
+        font-size: 43px;
+    }
+
+    .hero-image {
+        height: 320px;
+    }
+
+    .special-banner {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .special-banner h2 {
+        font-size: 30px;
+    }
+
+    .page-header {
+        padding: 55px 0;
+    }
+
+    .page-header h1 {
+        font-size: 42px;
+    }
+
+    .bakery-logo {
+        font-size: 24px;
+    }
+
+}
+
+
+@media (max-width: 575px) {
+
+    .bakery-navbar {
+        padding: 14px 0;
+    }
+
+    .bakery-nav {
+        gap: 2px;
+    }
+
+    .bakery-nav .nav-link {
+        font-size: 13px;
+        padding: 7px 8px !important;
+    }
+
+    .hero-section {
+        padding: 45px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-image-wrapper {
+        padding: 10px 0;
+    }
+
+    .hero-image {
+        height: 280px;
+    }
+
+}
+/* =========================================
+   FIND US PAGE
+========================================= */
+
+.contact-section {
+    background-color: #f6ead8;
+}
+
+.contact-box {
+    background-color: #fffaf2;
+    border: 1px solid #ead8c0;
+    border-radius: 18px;
+    padding: 35px 25px;
+    box-shadow: 0 8px 20px rgba(107, 63, 29, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(107, 63, 29, 0.14);
+}
+
+.contact-icon {
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+
+.contact-box h4 {
+    color: #6b3f1d;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.contact-box p {
+    color: #5f5146;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+
+/* Opening Hours */
+
+.hours-card {
+    background-color: #fffaf2;
+    border: 1px solid #ead8c0;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 25px rgba(107, 63, 29, 0.10);
+}
+
+.hours-card .section-title {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.hours-list {
+    margin-top: 20px;
+}
+
+.hours-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    padding: 16px 0;
+
+    border-bottom: 1px solid #ead8c0;
+}
+
+.hours-item strong {
+    color: #6b3f1d;
+}
+
+.hours-item span {
+    color: #5f5146;
+    text-align: right;
+}
+
+.hours-note {
+    color: #6b5a4c;
+    margin-top: 25px;
+    line-height: 1.6;
+}
+
+
+/* Map */
+
+.map-box {
+    overflow: hidden;
+    border-radius: 20px;
+    border: 6px solid #fffaf2;
+    box-shadow: 0 8px 25px rgba(107, 63, 29, 0.15);
+}
+
+.map-box iframe {
+    display: block;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .hours-card {
+        padding: 28px 22px;
+    }
+
+    .hours-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .hours-item span {
+        text-align: left;
+    }
+
+}
+/* =========================================
+   MENU SEARCH BAR
+========================================= */
+
+.search-section {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.search-card {
+    background-color: #fffaf2;
+    border: 1px solid #ead8c0;
+    border-radius: 20px;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 0 8px 22px rgba(107, 63, 29, 0.08);
+}
+
+.search-card h3 {
+    color: #6b3f1d;
+    font-weight: 700;
+}
+
+.search-card p {
+    color: #5f5146;
+}
+
+.search-card .form-control {
+    border: 1px solid #d8b995;
+    padding: 14px;
+}
+
+.search-card .input-group {
+    max-width: 650px;
+    margin: 25px auto 12px;
+}
+
+
+/* =========================================
+   MENU PRODUCT CARDS
+========================================= */
+
+.menu-card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: #fffaf2;
+    box-shadow: 0 8px 20px rgba(107, 63, 29, 0.10);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(107, 63, 29, 0.16);
+}
+
+.menu-card img {
+    height: 230px;
+    object-fit: cover;
+}
+
+.menu-card .card-body {
+    padding: 25px;
+}
+
+.menu-card .card-title {
+    color: #6b3f1d;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.menu-card .card-text {
+    color: #5f5146;
+    line-height: 1.6;
+}
+
+.menu-price {
+    color: #b86b25;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+
+/* =========================================
+   PAYMENT CARD
+========================================= */
+
+.payment-card {
+    background-color: #f6ead8;
+    border-radius: 25px;
+    padding: 45px;
+    box-shadow: 0 10px 30px rgba(107, 63, 29, 0.10);
+}
+
+.payment-card .section-title {
+    margin-top: 12px;
+}
+
+.payment-card p {
+    color: #5f5146;
+    line-height: 1.7;
+}
+
+.payment-list {
+    padding-left: 20px;
+    color: #5f5146;
+    line-height: 2;
+}
+
+.order-summary {
+    background-color: #fffaf2;
+    border: 1px solid #ead8c0;
+    border-radius: 20px;
+    padding: 28px;
+    box-shadow: 0 8px 20px rgba(107, 63, 29, 0.08);
+}
+
+.order-summary h4 {
+    color: #6b3f1d;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.summary-row,
+.summary-total {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 12px 0;
+    color: #5f5146;
+}
+
+.summary-row strong,
+.summary-total strong {
+    color: #6b3f1d;
+}
+
+.summary-total {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.payment-note {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+
+/* =========================================
+   MOBILE DESIGN
+========================================= */
+
+@media (max-width: 768px) {
+
+    .search-card {
+        padding: 25px 18px;
+    }
+
+    .search-card .input-group {
+        display: block;
+    }
+
+    .search-card .form-control {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search-card .btn {
+        width: 100%;
+    }
+
+    .payment-card {
+        padding: 28px 20px;
+    }
+
+    .menu-card img {
+        height: 220px;
+    }
+
+}
+/* =========================================
+   WHY CHOOSE US
+========================================= */
+
+.feature-card {
+    background-color: #fffaf2;
+    border: 1px solid #ead8c0;
+    border-radius: 18px;
+    padding: 30px 20px;
+    height: 100%;
+    box-shadow: 0 6px 18px rgba(107, 63, 29, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.feature-card h5 {
+    color: #6b3f1d;
+    font-weight: 700;
+}
+
+.feature-card p {
+    color: #5f5146;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+
+/* =========================================
+   CUSTOMER REVIEWS
+========================================= */
+
+.reviews-section {
+    background-color: #f6ead8;
+}
+
+.review-card {
+    background-color: #fffaf2;
+    border: 1px solid #ead8c0;
+    border-radius: 18px;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0 6px 18px rgba(107, 63, 29, 0.08);
+}
+
+.review-stars {
+    color: #b86b25;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.review-card p {
+    color: #5f5146;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.review-card h6 {
+    color: #6b3f1d;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+/* =========================================
+   NEWSLETTER
+========================================= */
+
+.newsletter-card {
+    background-color: #fffaf2;
+    border: 1px solid #ead8c0;
+    border-radius: 22px;
+    padding: 40px;
+    box-shadow: 0 8px 22px rgba(107, 63, 29, 0.08);
+}
+
+.newsletter-card p {
+    color: #5f5146;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 12px;
+    max-width: 650px;
+    margin: 25px auto 15px;
+}
+
+.newsletter-form .form-control {
+    padding: 14px;
+}
+
+.newsletter-card small {
+    color: #806d5d;
+}
+
+
+/* =========================================
+   BACK TO TOP
+========================================= */
+
+.back-top {
+    padding-bottom: 30px;
+}
+
+
+/* =========================================
+   MOBILE NEWSLETTER
+========================================= */
+
+@media (max-width: 768px) {
+
+    .newsletter-card {
+        padding: 28px 20px;
+    }
+
+    .newsletter-form {
+        display: block;
+    }
+
+    .newsletter-form .form-control {
+        margin-bottom: 12px;
+    }
+
+    .newsletter-form .btn {
+        width: 100%;
+    }
+
+}
+/* =========================================
+   VIDEO HERO BACKGROUND
+========================================= */
+
+.hero-video {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.48);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    max-width: 800px;
+    padding: 30px;
+}
+
+.hero-content h1 {
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .hero-video {
+        height: 550px;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-content p {
+        font-size: 17px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+}
+/* Hamburger menu */
+
+.menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    width: 35px;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    margin: 6px 0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Phone and iPad */
+@media (max-width: 991px) {
+
+    .bakery-nav-container {
+        position: relative;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .bakery-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #4b0082;
+        flex-direction: column;
+        padding: 15px 25px;
+    }
+
+    .bakery-nav a {
+        display: block;
+        padding: 12px 0;
+        color: white !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .menu-toggle:checked ~ .bakery-nav {
+        display: flex;
+    }
+}
