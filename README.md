@@ -1,4 +1,4 @@
-# 🍰 Sweet Crumbs Bakery
+#  Sweet Crumbs Bakery
 
 **Freshly Baked Happiness in Every Bite!**
 
@@ -62,7 +62,7 @@ HTML5 is used to create the structure of the webpages.
 
 ### CSS
 
-CSS3 is used for the website's:
+CSS is used for the website's:
 
 * Colours
 * Fonts
@@ -73,7 +73,7 @@ CSS3 is used for the website's:
 * Buttons
 * Responsive design
 
-### Bootstrap 5
+### Bootstrap 
 
 Bootstrap is used for responsive layouts, components and page structure.
 
@@ -81,10 +81,10 @@ Bootstrap is used for responsive layouts, components and page structure.
 
 Bootswatch LUX is used as the Bootstrap theme.
 
-```html
+
 <link rel="stylesheet"
 href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/lux/bootstrap.min.css">
-```
+
 
 ### Visual Studio Code
 
@@ -96,7 +96,7 @@ GitHub is used to store and manage the project.
 
 ## Project Structure
 
-```text
+
 Sweet-Crumbs-Bakery/
 │
 ├── index.html
@@ -119,7 +119,7 @@ Sweet-Crumbs-Bakery/
     ├── brownies.jpg
     ├── bread.jpg
     └── special-treats.jpg
-```
+
 
 ## Navigation
 
@@ -156,9 +156,9 @@ Bakery images are stored in the `images` folder and are linked to the webpages u
 
 Example:
 
-```html
+
 <img src="images/cake.jpg" alt="Chocolate Cake">
-```
+
 
 Alternative text is included on images where appropriate.
 
@@ -228,7 +228,6 @@ The website was checked to make sure that:
 | 0.29    | Organised the final project files.                          | 18 September 2026 |
 | 0.30    | Updated the README and prepared the project for submission. | 18 September 2026 |
 
-**Note:** The changelog above should match the actual work and commit history in the GitHub repository. Do not create fake Git commits simply to make the repository appear to have 30 commits.
 
 ## Future Improvements
 
