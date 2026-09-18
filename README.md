@@ -96,7 +96,7 @@ GitHub is used to store and manage the project.
 
 ## Project Structure
 
-
+```text
 Sweet-Crumbs-Bakery/
 │
 ├── index.html
@@ -119,7 +119,7 @@ Sweet-Crumbs-Bakery/
     ├── brownies.jpg
     ├── bread.jpg
     └── special-treats.jpg
-
+```
 
 ## Navigation
 
@@ -152,7 +152,7 @@ CSS media queries and Bootstrap responsive features are used to adjust the layou
 
 ## Images
 
-Bakery images are stored in the `images` folder and are linked to the webpages using relative paths.
+Bakery images are stored in the images folder and are linked to the webpages using relative paths.
 
 Example:
 
